@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+/*CORES SITE*/
+/*azul escuro: #232b3d*/
+/*azul padrão: #316090*/
+
+.clear{clear:both};
+
+.box25,
+.box30,
+.box50,
+.box70,
+.box100 { 
+    float: left;
+}
+
+.col05 {
+    padding-right: 2%;
+}
+
+html, body {
+    font-family: 'Open-Sans Condensed', sans-serif;
+    background: #fff;
+    font-size: 100%;
+}
+.fontzero {
+    font-size: 0;
+}
+.container {
+    float: left;
+    width: 100%
+}
+.content {
+    width: 90%;
+}
+
+.box33 {
+    float: left;
+    /*border: 1px solid red;*/
+}
+
+.main-header {
+    float: left;
+    width: 100%;
+    padding: 20px 5%;
+    background-color: #316090;
+}
+
+.menu-dev {
+    display: none;
+}
+
+.main-menu {
+    /*position: fixed;*/
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    background: #316090;
+}
+
+.main-menu .logo {
+    float: left;
+    width: 30%;
+}
+
+.fixar {
+    position:fixed;
+    margin-top: 0px !important;
+    z-index: 999;
+    background-color: rgba(49,96,144,0.6);
+}
+.main-nav {
+    float: right;
+    width: 70%;
+    padding: 1.4% 0;
+}
+.main-nav .item_menu li {
+    display: inline-block;
+}
+
+.main-nav .item-menu li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.main-nav .item-menu li a {
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1em;
+    padding: 8px 15px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.main-nav .item-menu li a.current {
+    background: #fff;
+    color: #316090;
+}
+
+.main-nav .item-menu li a:hover {
+    background: #fff;
+    color: #316090;
+}
+
+menu-dev {
+    display: none;
+}
+
+.bar-top {
+    width: 100%;
+    padding: 1.2em 10%;
+    color: #316090;
+    background-color: #fff;
+    border-bottom: 1px solid #bbb;
+
+}
+.bar-top span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6em;
+    font-weight: 200;
+}
+
+.bar-top p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.presentat {
+    float: left;
+}
+
+.social-data {
+    padding-top: 1%;
+    float: right;
+}
+
+.social-data social-ico {
+    list-style: none;
+}
+
+.social-data ul.social-ico li {
+    display: inline-block;
+    padding: 0 10px 0 10px;  
+}
+
+.social-data ul.social-ico li a {
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.social-data ul.social-ico li a:hover {
+    border: #fff solid 1px;
+    background-color: #ccc;
+}
+
+.article-section {
+    float: left;
+    text-align: center;
+    background-color: #eee;
+    /*border: 1px dotted greenyellow;*/
+}
+
+.tagline {
+    text-align: left;
+}
+
+
+
